@@ -1,10 +1,10 @@
 {
   "name": "binary-io-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This node module is used for a server post audio receiver",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon test.js",
     "test": "node test.js"
   },
   "keywords": [
