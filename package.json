@@ -1,0 +1,34 @@
+{
+  "name": "binary-io-server",
+  "version": "1.0.1",
+  "description": "This node module is used for a server post audio receiver",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "file",
+    "binary",
+    "post",
+    "server"
+  ],
+  "author": "nextsigner",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "object-hash": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextsigner/binary-io-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nextsigner/simple-file-server/issues"
+  },
+  "homepage": "https://github.com/nextsigner/simple-file-server#readme"
+}
