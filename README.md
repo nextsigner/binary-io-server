@@ -6,11 +6,13 @@ It is the first module for this task. Only work with a file by server and port w
 
 ## Basic way
 
-With port, urn (uri+'filereceiver') and folder files storage, all as default with this values.
+With port, urn (uri+'/filereceiver') and folder files storage, all as default with this values.
 
 * Port: 8100
 * URN: filereceiver
 * Folder Files: bios-files
+
+Note: URN is the string for receiving post file sended in http://<host>:<port>/<URN> for example http://mydomain.com:8100/filereceiver.
 
 ```JavaScript
 const bios = require('binary-io-server')
