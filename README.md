@@ -1,13 +1,13 @@
 # binary-io-server
 
-It is the first module for this task. Only work with a file by server and port why dont update this package.
+Make your binary files server for send with the post method and get from this server. First send a post file, then receive the unique id fileName as responseText from the post method and get this fileName from any location for download or use.
 
 ## Install package
 
 ```bash
 npm install binary-io-server
 ```
-# Usage Example
+## Usage Example
 
 ## Basic way
 
@@ -58,6 +58,9 @@ bios.listen(8100,function(){
 ```bash
 node index.js
 ```
+## Limitation and performance
+
+This module was tested with audio files of 50Mb, simple image files, pdf files etc. If you want use this module for storage big files, we are not recomend and not giving warrantie.
 
 
 ## For more info
